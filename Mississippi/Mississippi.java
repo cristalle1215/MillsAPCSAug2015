@@ -1,13 +1,13 @@
 
 /**
- * HW Day 9 Mississippi.
+ * HW Day 11 Mississippi Revision
  * 
  * Cristalle Kwok 
- * 8/25/15
+ * 8/28/15
  */
 public class Mississippi
 {
-    public static void LetterM(){
+    public static void letterM(){
         System.out.println("M     M");
         System.out.println("MM   MM");
         System.out.println("M M M M");
@@ -17,7 +17,7 @@ public class Mississippi
         System.out.println("M     M");
     }
     
-    public static void LetterI(){
+    public static void letterI(){
         System.out.println("IIIII");
         System.out.println("  I  ");
         System.out.println("  I  ");
@@ -27,7 +27,17 @@ public class Mississippi
         System.out.println("IIIII");
     }
     
-    public static void LetterS(){
+    public static void letterP(){
+        System.out.println("PPPPPP ");
+        System.out.println("P     P");
+        System.out.println("P     P");
+        System.out.println("PPPPPP ");
+        System.out.println("P      ");
+        System.out.println("P      ");
+        System.out.println("P      ");
+    }
+    
+    public static void letterS(){
         System.out.println(" SSSSS ");
         System.out.println("S     S");
         System.out.println("S      ");
@@ -37,27 +47,20 @@ public class Mississippi
         System.out.println(" SSSSS ");
     }
     
-    public static void LetterP(){
-        System.out.println("PPPPPP ");
-        System.out.println("P     P");
-        System.out.println("P     P");
-        System.out.println("PPPPPP ");
-        System.out.println("P      ");
-        System.out.println("P      ");
-        System.out.println("P      ");
+    public static void letterISS(){
+        letterI();
+        letterS();
+        letterS();
     }
+           
     
     public static void main(String[] args){
-        LetterM();
-        LetterI();
-        LetterS();
-        LetterS();
-        LetterI();
-        LetterS();
-        LetterS();
-        LetterI();
-        LetterP();
-        LetterP();
-        LetterI();
+       letterM();
+       letterISS();
+       letterISS();
+       letterI();
+       letterP();
+       letterP();
+       letterI();
     }
 }
