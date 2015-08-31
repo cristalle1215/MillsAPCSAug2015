@@ -1,12 +1,14 @@
 #BlueJ class context
 comment0.params=
-comment0.target=void\ Fly()
+comment0.target=void\ fly()
 comment1.params=
-comment1.target=void\ Spider()
+comment1.target=void\ spider()
 comment2.params=
-comment2.target=void\ Bird()
+comment2.target=void\ bird()
 comment3.params=
-comment3.target=void\ Cat()
-comment4.params=args
-comment4.target=void\ main(java.lang.String[])
-numComments=5
+comment3.target=void\ cat()
+comment4.params=
+comment4.target=void\ swallowed()
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+numComments=6

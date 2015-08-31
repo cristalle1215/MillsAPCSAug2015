@@ -7,41 +7,50 @@
  */
 public class OldLady
 {
-    public static void Fly(){
+    public static void fly(){
         System.out.println("I don't know know why she swallowed a fly - perhaps she'll die");
     }
     
-    public static void Spider(){
+    public static void spider(){
         System.out.println("She swallowed the spider to catch the fly");
     }
     
-    public static void Bird(){
+    public static void bird(){
         System.out.println("She swallowed the bird to catch the spider");
     }
     
-    public static void Cat(){
+    public static void cat(){
         System.out.println("She swallowed the cat to catch the bird");
     }  
     
+    public static void swallowed(){
+        System.out.print("There was an old lady who swallowed a ");
+    }
+    
     public static void main(String[] args){
-        System.out.println("There was an old lady who swallowed a fly");
-        Fly();
-        System.out.println("There was an old lady who swallowed a spider");
+        swallowed();
+        System.out.println("fly");
+        fly();
+        swallowed();
+        System.out.println("spider");
         System.out.println("That wriggled and wiggled and tiggled inside her");
-        Spider();
-        Fly();
-        System.out.println("There was an old lady who swallowed a bird");
+        spider();
+        fly();
+        swallowed();
+        System.out.println("bird");
         System.out.println("How absurd to swallow a bird");
-        Bird();
-        Spider();
-        Fly();
-        System.out.println("There was an old lady who swallowed a cat");
+        bird();
+        spider();
+        fly();
+        swallowed();
+        System.out.println("cat");
         System.out.println("Fancy that to swallow a cat");
-        Cat();
-        Bird();
-        Spider();
-        Fly();
-        System.out.println("There was an old lady who swallowed a horse...");
+        cat();
+        bird();
+        spider();
+        fly();
+        swallowed();
+        System.out.println("horse...");
         System.out.println("She's dead, of course");
     }
 }
