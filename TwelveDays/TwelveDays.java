@@ -3,7 +3,7 @@
  * HW Day 10 Twelve Days of Christmas
  * 
  * Cristalle Kwok
- * 8/27/15
+ * 8/31/15
  */
 public class TwelveDays
 {
