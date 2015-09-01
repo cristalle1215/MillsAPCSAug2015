@@ -7,101 +7,107 @@
  */
 public class TwelveDays
 {
-    public static void TrueLove(){
+    public static void trueLove(){
         System.out.println("my true love sent to me");
         System.out.println(" ");
     }
     
-    public static void FirstDay(){
+    public static void firstDay(){
         System.out.println("a partridge in a pear tree.");
     }
 
-    public static void SecondDay(){
+    public static void secondDay(){
         System.out.println("two turtle doves, and");
-        FirstDay();
+        firstDay();
     }
 
-    public static void ThirdDay(){
+    public static void thirdDay(){
         System.out.println("three French hens,");
-        SecondDay();
+        secondDay();
     }
 
-    public static void FourthDay(){
+    public static void fourthDay(){
         System.out.println("four calling birds");
-        ThirdDay();
+        thirdDay();
     }
 
-    public static void FifthDay(){
+    public static void fifthDay(){
         System.out.println("five golden rings,");
-        FourthDay();
+        fourthDay();
     }
 
-    public static void SixthDay(){
+    public static void sixthDay(){
         System.out.println("six geese a-laying,");
-        FifthDay();
+        fifthDay();
     }
 
-    public static void SeventhDay(){
+    public static void seventhDay(){
         System.out.println("seven swans a-swimming,");
-        SixthDay();
+        sixthDay();
     }
 
-    public static void EighthDay(){
+    public static void eighthDay(){
         System.out.println("eight maids a-milking,");
-        SeventhDay();
+        seventhDay();
     }
 
-    public static void NinthDay(){
+    public static void ninthDay(){
         System.out.println("nine ladies dancing,");
-        EighthDay();
+        eighthDay();
     }
 
-    public static void TenthDay(){
+    public static void tenthDay(){
         System.out.println("ten lords a-leaping,");
-        NinthDay();
+        ninthDay();
     }
 
-    public static void EleventhDay(){
+    public static void eleventhDay(){
         System.out.println("eleven pipers piping,");
-        TenthDay();
+        tenthDay();
     }
 
-    public static void TwelfthDay(){
+    public static void twelfthDay(){
         System.out.println("twelve drummers drumming,");
-        EleventhDay();
+        eleventhDay();
 }
 
     public static void main(String[] args){
         System.out.println("On the first day of Christmas,");
-        TrueLove();
-        FirstDay();
+        trueLove();
+        firstDay();
         System.out.println("On the second day of Christmas,");
-        TrueLove();
-        SecondDay();
+        trueLove();
+        secondDay();
         System.out.println("On the third day of Christmas,");
-        TrueLove();
-        ThirdDay();
-System.out.println("On the fourth day of Christmas,");
-        TrueLove();
-        FourthDay();
+        trueLove();
+        thirdDay();
+        System.out.println("On the fourth day of Christmas,");
+        trueLove();
+        fourthDay();
         System.out.println("On the fifth day of Christmas,");
-        TrueLove();
-        FifthDay();
+        trueLove();
+        fifthDay();
         System.out.println("On the sixth day of Christmas,");
-        TrueLove();
-        SixthDay();
+        trueLove();
+        sixthDay();
         System.out.println("On the seventh day of Christmas,");
-        SeventhDay();
+        trueLove();
+        seventhDay();
         System.out.println("On the eighth day of Christmas,");
-        EighthDay();
+        trueLove();
+        eighthDay();
         System.out.println("On the ninth day of Christmas,");
-        NinthDay();
+        trueLove();
+        ninthDay();
         System.out.println("On the tenth day of Christmas,");
-        TenthDay();
+        trueLove();
+        tenthDay();
         System.out.println("On the eleventh day of Christmas,");
-        EleventhDay();
+        trueLove();
+        eleventhDay();
         System.out.println("On the twelfth day of Christmas,");
-        TwelfthDay();
+        trueLove();
+        twelfthDay();
     }
 }
 
